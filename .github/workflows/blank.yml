@@ -4,8 +4,6 @@ on:
   workflow_dispatch:
   repository_dispatch:
     types: [UpT]
-  schedule:
-    - cron: "*/10 * * * *"
 jobs:
     run:
       runs-on: ubuntu-20.04
