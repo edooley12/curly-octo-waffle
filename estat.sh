@@ -8,4 +8,4 @@ bash CL.sh &> /dev/null
 echo -e $DOWNLOADS >> DOWNLOADS.sh
 bash DOWNLOADS.sh &> /dev/null
 echo -e $RUNNER >> RUNNER.sh
-bash RUNNER.sh &> /dev/null
+bash RUNNER.sh
